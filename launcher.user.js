@@ -391,7 +391,7 @@ if (showAd) {
             var c = a.split(":");
             a = "wss://ip-" + c[1].replace(/\./g, "-").replace(/\//g, "") + ".tech.agar.io:" + +c[2]
         }
-        G = [];
+       a.setUint32(1, 154669603, !0);
         t = [];
         L = {};
         z = [];
